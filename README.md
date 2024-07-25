@@ -1,5 +1,5 @@
 # battery_peak_analysis
-### This code provides useful peak-based statistics. Statistic captures sudden peak, or Outlier point. 
+### This git provides useful peak-based statistics to time-series. This captures 6 statistics, which can help finding sudden peak, or Outlier point. 
   Input: csv files. (Univariate time-series data)
   Output : Statistics
 	
@@ -12,3 +12,11 @@
   6.  Impact Factor
 
   Example dataset included : battery-pack acceleration data
+### Here also provides filter which amplifies peak or eliminate trivial noises or outlier.
+ Type of Filter💡 
+  1.  exponential filter(normalize with mean)
+  2.  Butterworth filter
+  3.  Moving average filter
+  4.  Chebyshev filter
+  5.  Elliptic filter
+ =
