@@ -1,5 +1,5 @@
 # battery_peak_analysis
-### This git provides useful peak-based statistics to time-series. This captures 6 statistics, which can help finding sudden peak, or Outlier point. 
+### This git provides useful peak-based statistics to time-series. This captures 6 statistics, which can help finding sudden peak, outlier point, unusual patterns. 
   Input: csv files. (Univariate time-series data)
   Output : Statistics
 	
@@ -19,4 +19,4 @@
   3.  Moving average filter
   4.  Chebyshev filter
   5.  Elliptic filter
- =
+ 
